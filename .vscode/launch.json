@@ -1,7 +1,21 @@
 {
     "version": "0.2.0",
-
     "configurations": [
+        // TO DO: launch.json isn't smart enough to launch the right configuration depending on the file extension.
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "PowerShell Launch Current File",
+            "type": "PowerShell",
+            "request": "launch",
+            "script": "${file}",
+            "cwd": "${file}",
+        },
         {
             "name": ".NET Script Debug",
             "type": "coreclr",
@@ -17,12 +31,7 @@
             "cwd": "${workspaceRoot}",
             "stopAtEntry": false,
             "console": "integratedTerminal",
-            "internalConsoleOptions": "neverOpen"
-        },
-        {
-            "name": ".NET Core Attach",
-            "type":"coreclr",
-            "request": "attach"
+            "internalConsoleOptions": "neverOpen",
         }
     ]
 }
