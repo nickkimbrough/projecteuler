@@ -1,4 +1,7 @@
+![alt text](https://projecteuler.net/profile/Nick_Kimbrough.png)
+
 # projecteuler
+
 My Solutions to ProjectEuler.net's Problems
 
 ## Running The Solutions
@@ -6,7 +9,8 @@ My Solutions to ProjectEuler.net's Problems
 I have used VSCode as my editor of choice for all of the solutions posted here.
 Certain languages require additional setup in order to run.
 
-### C#
+### C\#
+
 
 1. Make sure you have the
 [.NET Core SDK](https://dotnet.microsoft.com/download) (2.1 minimum) installed.
