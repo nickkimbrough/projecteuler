@@ -2,7 +2,9 @@
 
 # projecteuler
 
-My Solutions to ProjectEuler.net's Problems
+My Solutions to [ProjectEuler.net](https://projecteuler.net/)'s Problems. This repository will contain
+spoilers to the first 100 questions, and is intended to show the methods I used
+to come to the answers, in line with [Project Euler's Rules](https://projecteuler.net/about#publish).
 
 ## Running The Solutions
 
