@@ -25,8 +25,8 @@
                 "exec",
                 // BUG BUG This is a user configuration and will have to be changed. Figure out a way to fix this to be dynamic.
                 // Potential help: https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
-                // "C:/Users/Nick/.dotnet/tools/.store/dotnet-script/1.1.0/dotnet-script/1.1.0/tools/net5.0/any/dotnet-script.dll",
-                "C:/Users/nick.kimbrough/.dotnet/tools/.store/dotnet-script/1.1.0/dotnet-script/1.1.0/tools/net5.0/any/dotnet-script.dll",
+                "C:/Users/Nick/.dotnet/tools/.store/dotnet-script/1.1.0/dotnet-script/1.1.0/tools/net5.0/any/dotnet-script.dll",
+                // "C:/Users/nick.kimbrough/.dotnet/tools/.store/dotnet-script/1.1.0/dotnet-script/1.1.0/tools/net5.0/any/dotnet-script.dll",
                 "${file}"
             ],
             "cwd": "${workspaceRoot}",

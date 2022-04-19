@@ -4,6 +4,8 @@
         "visualstudioexptteam.vscodeintellicode",
         "yzhang.markdown-all-in-one",
         "davidanson.vscode-markdownlint",
-        "esbenp.prettier-vscode"
+        "esbenp.prettier-vscode",
+        "ms-python.python",
+        "ms-vscode.powershell"
     ]
 }
