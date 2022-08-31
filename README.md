@@ -18,4 +18,4 @@ Certain languages require additional setup in order to run.
 [.NET Core SDK](https://dotnet.microsoft.com/download) (2.1 minimum) installed.
 2. Install the dotnet-script tool with the following command:
     - `dotnet tool install -g dotnet-script`
-3. Ensure the path to the dll is correct in launch.json.
+3. Ensure the path to the dll is correct in `.vscode\launch.json`.
