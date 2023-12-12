@@ -33,22 +33,20 @@ fn main() {
         corners.push(last_number + n + 1);
         corners.push(last_number + ((n + 1) * 2));
         corners.push(last_number + ((n + 1) * 3));
-        corners.push(last_number + ((n + 1) * 4));
         last_number = last_number + ((n + 1) * 4);
         n += 2;
+        total_number_count += 4;
 
         for corner in corners {
-            total_number_count += 1;
             if is_prime(corner.to_string().as_str()) {
                 prime_number_count += 1;
             }
         }
 
-        let prime_ratio = prime_number_count as f64 * 100 as f64 / total_number_count as f64;
+        let prime_ratio = prime_number_count as f64 as f64 / total_number_count as f64;
 
-        println!("Side Length: {n}. Ratio: {prime_ratio}%");
-        if prime_ratio < 10.0 {
-            println!("Ratio fell below 10%! Exiting...");
+        if prime_ratio < 0.10 {
+            println!("Answer: Side Length: {n}. Ratio: {prime_ratio}%");
             break;
         }
     }
