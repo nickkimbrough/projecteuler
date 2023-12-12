@@ -1,0 +1,9 @@
+[package]
+name = "project-euler-058"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+is_prime = "2.0.9"

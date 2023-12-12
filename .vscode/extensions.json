@@ -6,6 +6,9 @@
         "davidanson.vscode-markdownlint",
         "esbenp.prettier-vscode",
         "ms-python.python",
-        "ms-vscode.powershell"
+        "ms-vscode.powershell",
+        "rust-lang.rust-analyzer",
+        "serayuzgur.crates",
+        "vadimcn.vscode-lldb"
     ]
 }
