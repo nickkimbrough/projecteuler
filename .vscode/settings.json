@@ -1,5 +1,8 @@
 {
-  "rust-analyzer.linkedProjects": [".\\Problems\\058\\Rust\\Cargo.toml"],
+  "rust-analyzer.linkedProjects": [
+    ".\\Problems\\058\\Rust\\Cargo.toml",
+    ".\\Problems\\099\\Rust\\Cargo.toml"
+  ],
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer",
     "editor.formatOnSave": true
