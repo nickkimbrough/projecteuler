@@ -3,15 +3,19 @@
 Starting with $1$ and spiralling anticlockwise in the following way, a square
 spiral with side length $7$ is formed.
 
-$$
-{\color{red}\mathbf 37}\;36\;35\;34\;33\;32\;{\color{red}\mathbf 31}\\
-38\;{\color{red}\mathbf 17}\;16\;15\;14\;{\color{red}\mathbf 13}\;30\\
-39\;18\;\;{\color{red}\mathbf 5}\;\;\;4\;\;\;{\color{red}\mathbf 3}\;12\;29\\
-40\;19\;\;6\;\;\;1\;\;\;2\;11\;28\\
-41\;20\;\;{\color{red}\mathbf 7}\;\;\;8\;\;\;9\;10\;27\\
-42\;21\;22\;23\;24\;25\;26\\
-{\color{red}\mathbf 43}\;44\;45\;46\;47\;48\;49
-$$
+$`{\color{red}\mathbf 37}\;36\;35\;34\;33\;32\;{\color{red}\mathbf 31}`$
+
+$`38\;{\color{red}\mathbf 17}\;16\;15\;14\;{\color{red}\mathbf 13}\;30`$
+
+$`39\;18\;\;{\color{red}\mathbf 5}\;\;\;4\;\;\;{\color{red}\mathbf 3}\;12\;29`$
+
+$`40\;19\;\;6\;\;\;1\;\;\;2\;11\;28`$
+
+$`41\;20\;\;{\color{red}\mathbf 7}\;\;\;8\;\;\;9\;10\;27`$
+
+$`42\;21\;22\;23\;24\;25\;26`$
+
+$`{\color{red}\mathbf 43}\;44\;45\;46\;47\;48\;49`$
 
 It is interesting to note that the odd squares lie along the bottom right
 diagonal, but what is more interesting is that $8$ out of the $13$ numbers lying
