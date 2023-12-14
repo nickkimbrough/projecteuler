@@ -1,6 +1,6 @@
-![Project Euler User Profile Badge For Nick_Kimbrough](https://projecteuler.net/profile/Nick_Kimbrough.png)
-
 # Project Euler
+
+![Project Euler User Profile Badge For Nick_Kimbrough](https://projecteuler.net/profile/Nick_Kimbrough.png)
 
 My Solutions to [ProjectEuler.net](https://projecteuler.net/)'s Problems. This repository will contain
 spoilers to the first 100 questions, and is intended to show the methods I used
