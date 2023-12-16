@@ -1,3 +1,4 @@
+#![feature(test)]
 /*
     Initial Thoughts:
 
@@ -24,27 +25,57 @@
     (not necessarily reduced) fraction whose denominator is (10n − 1)10k.
 
     Conversely the period of the repeating decimal of a fraction c/d will be
-    (at most) the smallest number n such that 10n − 1 is divisible by d.
+    (at most) the smallest number n such that 10^n − 1 is divisible by d.
+
+    Implementation:
+
+    Implementing this was a bit difficult, I ran into overflow so I had to start
+    using BigUints.
 */
+use num_bigint::BigUint;
+use num_bigint::ToBigUint;
+use num_traits::{One, Zero};
+
+extern crate test;
 
 fn main() {
-    let mut n: usize = 0;
-    let mut max_period: usize = 0;
+    let answer = calculate_answer();
+    print!("The Answer Is {answer}");
+}
 
-    let mut i: usize = 1;
+fn calculate_answer() -> BigUint {
+    let mut answer: BigUint = Zero::zero();
+    let mut max_period: BigUint = Zero::zero();
+
+    let mut i: u32 = 1;
     while i <= 1000 {
         if i % 5 != 0 {
-            let mut p = 1;
-            while p < i && (10_usize.pow(p as u32)) % i != 1 {
+            let mut p: u32 = 1;
+            while p < i && (10_i32.to_biguint().unwrap().pow(p) % i != One::one()) {
                 p += 1;
             }
-            if p > max_period {
-                max_period = p;
-                n = i;
+            if p.to_biguint().unwrap() > max_period {
+                max_period = p.to_biguint().unwrap();
+                answer = i.to_biguint().unwrap();
             }
         }
         i += 2;
     }
+    return answer;
+}
 
-    print!("blah");
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use test::Bencher;
+
+    #[test]
+    fn it_works() {
+        assert_eq!(983.to_biguint().unwrap(), calculate_answer());
+    }
+
+    #[bench]
+    fn bench_calculate_answer(b: &mut Bencher) {
+        b.iter(|| calculate_answer());
+    }
 }

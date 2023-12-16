@@ -1,7 +1,5 @@
 #![feature(test)]
 
-use std::{thread, time};
-
 extern crate test;
 
 /*
