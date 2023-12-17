@@ -47,19 +47,19 @@ fn calculate_answer() -> BigUint {
     let mut answer: BigUint = Zero::zero();
     let mut max_period: BigUint = Zero::zero();
 
-    let mut i: u32 = 1;
-    while i <= 1000 {
-        if i % 5 != 0 {
+    let mut d: u32 = 1;
+    while d < 1000 {
+        if d % 5 != 0 {
             let mut p: u32 = 1;
-            while p < i && (10_i32.to_biguint().unwrap().pow(p) % i != One::one()) {
+            while p < d && (10_i32.to_biguint().unwrap().pow(p) % d != One::one()) {
                 p += 1;
             }
             if p.to_biguint().unwrap() > max_period {
                 max_period = p.to_biguint().unwrap();
-                answer = i.to_biguint().unwrap();
+                answer = d.to_biguint().unwrap();
             }
         }
-        i += 2;
+        d += 2;
     }
     return answer;
 }
