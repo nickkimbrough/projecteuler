@@ -1,9 +1,9 @@
 {
   "rust-analyzer.linkedProjects": [
-    ".\\Problems\\002\\Rust\\Cargo.toml",
-    ".\\Problems\\026\\Rust\\Cargo.toml",
-    ".\\Problems\\058\\Rust\\Cargo.toml",
-    ".\\Problems\\099\\Rust\\Cargo.toml",
+    ".\\Problems\\0002\\Rust\\Cargo.toml",
+    ".\\Problems\\0026\\Rust\\Cargo.toml",
+    ".\\Problems\\0058\\Rust\\Cargo.toml",
+    ".\\Problems\\0099\\Rust\\Cargo.toml",
   ],
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer",
