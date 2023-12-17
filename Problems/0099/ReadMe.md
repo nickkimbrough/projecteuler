@@ -1,5 +1,7 @@
 # Largest Exponential
 
+## Problem 99
+
 Comparing two numbers written in index form like $2^{11}$ and $3^7$ is not
 difficult, as any calculator would confirm that $2^{11} = 2048 \lt 3^7 = 2187$.
 
