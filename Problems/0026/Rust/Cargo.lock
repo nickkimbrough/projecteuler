@@ -39,7 +39,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "project-euler-026"
+name = "project-euler-0026"
 version = "0.1.0"
 dependencies = [
  "num-bigint",

@@ -49,7 +49,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "project-euler-058"
+name = "project-euler-0058"
 version = "0.1.0"
 dependencies = [
  "is_prime",
