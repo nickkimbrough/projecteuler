@@ -8,7 +8,7 @@
         "ms-python.python",
         "ms-vscode.powershell",
         "rust-lang.rust-analyzer",
-        "serayuzgur.crates",
+        "fill-labs.dependi",
         "vadimcn.vscode-lldb"
     ]
 }
