@@ -2,6 +2,7 @@
   "rust-analyzer.linkedProjects": [
     ".\\Problems\\0002\\Rust\\Cargo.toml",
     ".\\Problems\\0026\\Rust\\Cargo.toml",
+    ".\\Problems\\0027\\Rust\\Cargo.toml",
     ".\\Problems\\0031\\Rust\\Cargo.toml",
     ".\\Problems\\0044\\Rust\\Cargo.toml",
     ".\\Problems\\0050\\Rust\\Cargo.toml",
