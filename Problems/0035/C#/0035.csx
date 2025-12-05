@@ -33,6 +33,13 @@
  *  rotation individually.
 */
 
+/** Forum thoughts:
+ *
+ *  I just realized there's another filter as user rayfil pointed out:
+ *  Any prime over 10 that contains an even digit or a 5 cannot be a circular prime.
+ *  This would have reduced the number of primes to check significantly.
+ */
+
 int GetCircularPrimes(int maxValue)
 {
     // First, get the prime numbers
