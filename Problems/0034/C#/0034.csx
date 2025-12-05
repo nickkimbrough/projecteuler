@@ -42,7 +42,7 @@ int GetDigitFactorialsSumInitialSolution()
     }
 
     int digitFactorialsSum = 0;
-    for (int i = 3; i <= 9999999; i++)
+    for (int i = 3; i <= 2540160; i++)
     {
         var digits = i
             .ToString()
