@@ -20,6 +20,19 @@
  *  first, because the leading 0 problem.
  */
 
+/** Grading thoughts:
+ *  I asked Gemini to grade me here and it pointed
+ *  out a few areas of improvement:
+ *  
+ *  Prime checking could be optimized with a sieve
+ *  of Eratosthenes.
+ *
+ *  I could have stored my primes in a HashSet for
+ *  O(1) lookup time instead of O(n) with a list,
+ *  and then I wouldn't have needed to check each
+ *  rotation individually.
+*/
+
 int GetCircularPrimes(int maxValue)
 {
     // First, get the prime numbers
